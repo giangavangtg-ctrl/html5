@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Phần đầu trang -->
+        <header>
+            <h1>Logo & Banner</h1>
+        </header>
+
+        <!-- Phần thanh điều hướng -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Phần nội dung bên trái (Menu phụ / Liên kết) -->
+        <aside class="left">
+            <h3>Menu Trái</h3>
+            <ul>
+                <li><a href="#">Liên kết 1</a></li>
+                <li><a href="#">Liên kết 2</a></li>
+                <li><a href="#">Liên kết 3</a></li>
+            </ul>
+        </aside>
+
+        <!-- Phần khối nội dung chính -->
+        <section class="content">
+            <!-- Một bài viết/nội dung độc lập -->
+            <article>
+                <h2>Hot news / Photo Slide</h2>
+                <p>Nội dung bài viết (News 1)...</p>
+                <p>Đây là phân vùng chứa nội dung chính sử dụng thẻ section và article thay cho div.</p>
+            </article>
+        </section>
+
+        <!-- Phần nội dung bên phải (Sidebar / Công cụ) -->
+        <aside class="right">
+            <h3>Sidebar</h3>
+            <p>📅 Lịch</p>
+            <p>📊 Biểu đồ</p>
+            <p>🗺️ Bản đồ</p>
+        </aside>
+
+        <!-- Phần chân trang -->
+        <footer>
+            <p>Bản quyền thuộc về @YourName - DTC245230011</p>
+        </footer>
+    </div>
+</body>
+</html>

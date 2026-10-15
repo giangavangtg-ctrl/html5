@@ -1,0 +1,106 @@
+/* Thiết lập cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+/* Khung bọc ngoài cùng */
+#main {
+    width: 1000px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+}
+
+/* Thẻ header thay cho #head */
+header {
+    height: 120px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Thẻ nav thay cho #head-link */
+nav {
+    height: 40px;
+    background-color: #343a40;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+/* Thẻ aside (trái) thay cho #left */
+aside.left {
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+/* Thẻ section thay cho #content */
+section.content {
+    width: 580px;
+    min-height: 400px;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+/* Thẻ aside (phải) thay cho #right */
+aside.right {
+    width: 200px;
+    min-height: 400px;
+    float: right;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+/* Thẻ footer thay cho #footer */
+footer {
+    clear: both; /* Vẫn phải clear float cho footer */
+    height: 60px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* Định dạng phụ cho thẻ article bên trong section */
+article {
+    margin-bottom: 20px;
+}
+article h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
